@@ -12,7 +12,7 @@ public class OverKillServiceTest {
     public void testkHappyPath(){
 
         String actual = "Hello Inigo";
-        String result = overKillService.concatenate2("Inigo");
+        String result = overKillService.concatenate2("Cup");
         assertEquals(actual, result);
 
     }
